@@ -1,0 +1,45 @@
+.utilisateur-details {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
+  
+  .utilisateur-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .utilisateur-details .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .utilisateur-details label {
+    font-weight: bold;
+  }
+  
+  .utilisateur-details input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .utilisateur-details button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .utilisateur-details button:hover {
+    background-color: #0056b3;
+  }
+  

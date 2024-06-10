@@ -1,0 +1,118 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header and Hero Section */
+.header {
+  background-color: #A67C52;
+  color: white;
+}
+
+.hero-section {
+  position: relative;
+  height: 24rem;
+}
+
+.hero-section .absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .relative {
+  position: relative;
+  z-index: 10;
+}
+
+.hero-section h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hero-section button {
+  background-color: #A67C52;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Available Spaces Section */
+.detection-count {
+  background-color: rgb(212, 147, 147);
+  color: Black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Profile Card */
+.profile-card {
+  width: 100%;
+  max-width: 20rem; /* Ajustez cette valeur pour minimiser la carte */
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-card .profile-details {
+  padding: 1rem;
+  text-align: center;
+}
+
+.profile-card .profile-details h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.profile-card .profile-details p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.profile-card .profile-actions {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-card .profile-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #6b705c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-card .profile-actions button:hover {
+  background-color: #495057;
+}

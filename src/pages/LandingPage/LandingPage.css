@@ -1,0 +1,9 @@
+.landing-page {
+    background-image: url('/Landing.png'); /* Assurez-vous que le chemin est correct */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  

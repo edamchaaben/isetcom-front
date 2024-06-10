@@ -1,0 +1,70 @@
+.sidebar {
+  flex: 1;
+  height: 100vh;
+  background-color: rgb(251, 251, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px; /* Set the initial width */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  transition: width 0.3s ease; /* Add smooth transition for width changes */
+}
+
+.sidebarWrapper {
+  padding: 18px;
+  color: #555;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarListItem {
+  padding: 9px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 18px !important;
+}
+
+li,
+a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  margin-left: 5px;
+}
+
+ul {
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 60px; /* Adjust the width for smaller screens */
+  }
+
+  .sidebarListItem {
+    justify-content: center; /* Center the content for smaller screens */
+  }
+
+  .sidebarListItem .sidebarIcon {
+    margin-right: 0;
+  }
+
+  .sidebarListItem.active,
+  .sidebarListItem:hover {
+    background-color: transparent; /* Remove background color on hover for smaller screens */
+  }
+}

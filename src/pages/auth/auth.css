@@ -1,0 +1,76 @@
+.auth-bg {
+  background-image: url("/public/background-expo-with-blurred-individuals_866663-1903.avif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 30px; /* Adjust border-radius for rounder corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(198, 156, 110, 0.8);
+  color: black; /* Change text color to black */
+  padding: 3rem;
+  max-width: 500px; 
+  margin: auto; 
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  color: black; 
+  background-color: white; 
+}
+
+.text-blue-700 {
+  color: black !important; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1.5rem !important;
+}
+
+.text-muted {
+  color: #091a29 !important;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding: 12px;
+  margin: 0.5rem 0;
+  width: 100%;
+  height: 50px; /* Set the height of all form control inputs to 50px */
+}
+
+.custom-control-label {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}

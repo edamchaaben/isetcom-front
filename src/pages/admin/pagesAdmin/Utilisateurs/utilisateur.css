@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.stands-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.button-add {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-add a {
+  color: white;
+  text-decoration: none;
+}
+
+.utilisateur-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.utilisateur-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.utilisateur-field {
+  margin-bottom: 10px;
+}
+
+.field-name {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-consulter, .button-supprimer {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-consulter {
+  background-color: #8B4513; /* Marron */
+  color: #fff;
+}
+
+.button-consulter:hover {
+  background-color: #A0522D; /* Marron clair */
+}
+
+.button-supprimer {
+  background-color: #8B4513; /* Marron */
+  color: #fff;
+}
+
+.button-supprimer:hover {
+  background-color: #A0522D; /* Marron clair */
+}

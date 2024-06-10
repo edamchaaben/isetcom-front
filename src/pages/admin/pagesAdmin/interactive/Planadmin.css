@@ -1,0 +1,63 @@
+.admin-dashboard {
+  margin-left: 250px; /* Ajustez cette valeur en fonction de la largeur de votre barre latérale */
+  padding: 20px;
+}
+
+.admin-dashboard h1,
+.admin-dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.parks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.parks-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.parks-list button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.parks-list button:hover {
+  background-color: #0056b3;
+}
